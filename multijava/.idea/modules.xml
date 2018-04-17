@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/multi-coreA/multi-coreA.iml" filepath="$PROJECT_DIR$/multi-coreA/multi-coreA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi-coreB/multi-coreB.iml" filepath="$PROJECT_DIR$/multi-coreB/multi-coreB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multijava.iml" filepath="$PROJECT_DIR$/multijava.iml" />
+    </modules>
+  </component>
+</project>
