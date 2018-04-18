@@ -12,12 +12,4 @@
     <artifactId>multi-coreA</artifactId>
 
     <!--表示子模块选择使用了父模块中的依赖-->
-    <dependencies>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-log4j12</artifactId>
-        </dependency>
-    </dependencies>
-
-
 </project>

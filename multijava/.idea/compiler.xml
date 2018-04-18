@@ -8,12 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="multi-coreA" />
         <module name="multi-coreB" />
+        <module name="multi-ut" />
+        <module name="multiut" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="multi-coreA" target="1.5" />
       <module name="multi-coreB" target="1.5" />
+      <module name="multi-ut" target="1.5" />
       <module name="multijava" target="1.5" />
+      <module name="multiut" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

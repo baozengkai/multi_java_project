@@ -9,10 +9,11 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
-    <!--Module元素-->
+    <!--Module元素 包含multi-coreA和multi-coreB-->
     <modules>
         <module>multi-coreA</module>
         <module>multi-coreB</module>
+        <module>multi-ut</module>
     </modules>
 
     <!--dependencies元素-->
@@ -25,16 +26,27 @@
         </dependency>
     </dependencies>
 
-    <!--dependencyManagement元素-->
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>org.slf4j</groupId>
-                <artifactId>slf4j-log4j12</artifactId>
-                <version>1.7.5</version>
-                <scope>test</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
+    <!--配置覆盖率工具jacoco-->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.7.8</version>
+                <configuration>
+                    <destFile>${project.basedir}/target/jacoco.exec</destFile>
+                </configuration>
+                <!--进行一些配置-->
+                <executions>
+                    <!--会执行mvn jacoco:prepare-agent 用于生成jacoco.exec文件-->
+                    <execution>
+                        <id>default-prepare-agent</id>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>

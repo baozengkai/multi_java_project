@@ -1,9 +1,9 @@
 package cn.bzk.coreA;
 
 public class coreA {
-    public static void main(String[] args)
+    public int addA(int a,int b)
     {
-        System.out.print("I am coreA");
+        return a + b;
     }
 
 }

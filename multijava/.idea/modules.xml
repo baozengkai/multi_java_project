@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/multi-coreA/multi-coreA.iml" filepath="$PROJECT_DIR$/multi-coreA/multi-coreA.iml" />
       <module fileurl="file://$PROJECT_DIR$/multi-coreB/multi-coreB.iml" filepath="$PROJECT_DIR$/multi-coreB/multi-coreB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/multi-ut/multi-ut.iml" filepath="$PROJECT_DIR$/multi-ut/multi-ut.iml" />
       <module fileurl="file://$PROJECT_DIR$/multijava.iml" filepath="$PROJECT_DIR$/multijava.iml" />
     </modules>
   </component>

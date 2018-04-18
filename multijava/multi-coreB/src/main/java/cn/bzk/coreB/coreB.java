@@ -1,8 +1,8 @@
 package cn.bzk.coreB;
 
 public class coreB {
-    public static void main(String[] args)
+    public int addB(int a,int b)
     {
-        System.out.print("I am coreA");
+        return a + b;
     }
 }

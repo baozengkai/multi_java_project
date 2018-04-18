@@ -11,4 +11,11 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>multi-coreB</artifactId>
 
+    <!--<dependencies>-->
+        <!--<dependency>-->
+            <!--<groupId>cn.bzk</groupId>-->
+            <!--<artifactId>multi-coreA</artifactId>-->
+            <!--<version>${project.version}</version>-->
+        <!--</dependency>-->
+    <!--</dependencies>-->
 </project>
